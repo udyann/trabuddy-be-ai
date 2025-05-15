@@ -1,0 +1,4 @@
+docs/contents/Eiffel tower_contents.txt
+docs/contents/Kyoto_contents.txt
+docs/contents/Rome_contents.txt
+docs/contents/Seoul_contents.txt

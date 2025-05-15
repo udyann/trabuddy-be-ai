@@ -1,0 +1,4 @@
+docs/historical/Eiffel tower_historical.txt
+docs/historical/Kyoto_historical.txt
+docs/historical/Rome_historical.txt
+docs/historical/Seoul_historical.txt

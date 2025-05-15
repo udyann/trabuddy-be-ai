@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    depends_on:
+      - db
+      - ai
+
+  db:
+    image: postgres:15
+    container_name: nest_demo_pg
+    ports:
+      - "6543:5432"
+    env_file:
+      - .env
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  ai:
+    build:
+      context: ./ai
+    ports:
+      - "8001:8001"
+    env_file:
+      - .env
+
+volumes:
+  pgdata:

@@ -1,0 +1,4 @@
+docs/preparation/Eiffel tower_preparation.txt
+docs/preparation/Kyoto_preparation.txt
+docs/preparation/Rome_preparation.txt
+docs/preparation/Seoul_preparation.txt
